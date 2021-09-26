@@ -28,8 +28,8 @@
 // update/add new author*
 
 // DELETE
-// delete a book
-// delete an author
+// delete a book *
+// delete an author from a book *
 
 // Authors
 
@@ -66,7 +66,7 @@
 // update/add new book to a publication *
 
 // DELETE
-// delete the publication
+// delete the publication *
 // delete a book from publication
 
 

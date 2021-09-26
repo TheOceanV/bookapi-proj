@@ -235,7 +235,7 @@ shapeAI.delete("/book/delete/author/:isbn/:authorID", (req, res) => {
   database.books.forEach((book) => {
     if (book.ISBN === req.params.isbn) {
       const newAuthorList = book.authors.filter(
-        (author) => autho !== parseInt(req.params.authorID)
+        (author) => author !== parseInt(req.params.authorID)
       );
       book.authors = newAuthorList;
       return;
@@ -294,5 +294,7 @@ shapeAI.delete("/publication/delete/book/:isbn/:pubId", (req, res) => {
     publications: database.publications,
   });
 });
+
+
 
 shapeAI.listen(3000, () => console.log("Server running!!😎"));
