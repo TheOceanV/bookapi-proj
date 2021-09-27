@@ -15,13 +15,13 @@
 
 // Books
 // We need an API
-// To get all books *
-// To get specific books * 
-// To get list of books based on category *
-// To get list of books based on languages *
+// To get all books **
+// To get specific books ** 
+// To get list of books based on category **
+// To get list of books based on languages [task][db]
 
 // POST
-// add new book*
+// add new book**
 
 // PUT
 // update book title*
@@ -36,38 +36,38 @@
 // We need an API
 
 // GET
-// to get all authors *
-// to get specific authors
-// to get list of authors based on books *
+// to get all authors **
+// to get specific authors [task][db]
+// to get list of authors based on books *[db]
 
 // POST
-// add new author*
+// add new author**
 
 // PUT
 // update author name*
 
 // DELETE
-// delete an author
+// delete an author [task]
 
 // Publications
 
 // We need an API
 
 // GET
-// to get all publications *
-// to get specific publication
-// to get list of publications based on book
+// to get all publications * [db]
+// to get specific publication [task] [db]
+// to get list of publications based on book [task] [db]
 
 // POST
-// add new publications
+// add new publications [task][db]
 
 // PUT
-// update the publication name using id
+// update the publication name using id [task]
 // update/add new book to a publication *
 
 // DELETE
 // delete the publication *
-// delete a book from publication
+// delete a book from publication [task]
 
 
 // How the server serves the request
