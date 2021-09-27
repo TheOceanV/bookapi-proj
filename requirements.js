@@ -24,7 +24,7 @@
 // add new book**
 
 // PUT
-// update book title*
+// update book title**
 // update/add new author*
 
 // DELETE
