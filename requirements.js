@@ -29,7 +29,7 @@
 
 // DELETE
 // delete a book **
-// delete an author from a book *
+// delete an author from a book **
 
 // Authors
 
